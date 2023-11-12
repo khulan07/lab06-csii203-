@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Нэрийн хуудас</title>
+</head>
+<body>
+    <header>
+        <h1>Таны Нэр</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Нэрийн мэдээлэл</h2>
+            <form id="profileForm">
+                <label for="firstName">Нэр:</label>
+                <input type="text" id="firstName" name="firstName" required>
+
+                <label for="lastName">Овог:</label>
+                <input type="text" id="lastName" name="lastName" required>
+
+                <label for="organization">Байгууллага:</label>
+                <input type="text" id="organization" name="organization">
+
+                <label for="address">Хаяг:</label>
+                <input type="text" id="address" name="address">
+
+                <label for="phone">Утас:</label>
+                <input type="tel" id="phone" name="phone">
+
+                <button type="submit">Хадгалах</button>
+               
+            </form>
+            <form id="profileForm" action="https://csii203-at-num-2023autumn-w1.azurewebsites.net/api/endpoint1?code=0SU6dqRROd2ob5QkEyF_uLTQXibfoiqEjfcg01rpZINFAzFuSVuOtA==" method="get">
+                <!-- ... Таны формын бусад хэсгүүд ... -->
+                <button type="submit">Дата хадгалах</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Таны мэдээлэл</h2>
+            <div id="profileInfo">
+                <!-- Энд хэрэглэгчийн оруулсан мэдээлэл харагдах болно -->
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Таны Нэр</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
